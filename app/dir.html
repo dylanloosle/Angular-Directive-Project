@@ -5,8 +5,8 @@
 <h3>
     {{user.name}}
 </h3>
-<h4 ng-show="showing">
-    {{user.age}}
+<h4>
+    <div data-ng-show="showing">{{user.age}}</div>
     </br>
-    {{user.email}}
+    <div data-ng-show="showing">{{user.email}}</div>
 </h4>

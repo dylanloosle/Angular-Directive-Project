@@ -7,7 +7,8 @@ app.directive('dirDisplay', function(){
         link: function(scope, elem, attrs) {
             console.log(scope, elem, attrs);
             elem.on('click', function(){
-
+                elem = false;
+                scope.$apply();
             })
         }
 
