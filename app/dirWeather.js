@@ -11,7 +11,13 @@ app.directive('dirWeather', function(){
         link: function(scope, elem, attrs){
 
 
-        }
+        },
+        //controller: function($scope) {
+        //    $scope.weatherCall ({city: $scope.user.city}).then(function(){
+        //        $scope.currentTemp = currentUser.temperature;
+        //        $scope.currentWeather = currentUser.weatherDescription;
+        //    })
+        //}
 
 
 
